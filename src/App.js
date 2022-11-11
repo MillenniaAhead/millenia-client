@@ -1,10 +1,13 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import TeamSize from './Components/TeamSize';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div >
+      <Routes>
+        <Route path='/' element={<TeamSize/>}> </Route>
+      </Routes>
     </div>
   );
 }

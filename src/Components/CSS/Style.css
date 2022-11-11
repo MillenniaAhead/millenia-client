@@ -1,0 +1,29 @@
+.detailUpper{
+    height: 160px;
+    background-color: white;
+}
+.linkButton{
+    font-style: Medium;
+    font-size: 24px;
+    text-decoration: none
+}
+.nextButton{
+    width: 257px;
+    height: 68px;
+    background: #4E4E4E;
+    font-style: Bold;
+   font-size: 24px;
+
+}
+p{
+    font-size:20px ; 
+    text-align: center;
+}
+.teamMember{
+    width: 737px;
+    height: 436px;
+    border: .5px solid gray;
+    margin: auto;
+    font-weight: 400;
+    font-size: 24px;
+}
