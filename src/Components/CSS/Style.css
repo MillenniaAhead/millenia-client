@@ -34,3 +34,12 @@ input[type=radio] {
     
     
 }
+.location{
+    margin-left: 5px;
+    text-align: left;
+}
+
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+}
