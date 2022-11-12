@@ -21,7 +21,7 @@ p{
 }
 .teamMember{
     width: 737px;
-    height: 440px;
+    height: min-content;
     border: .5px solid gray;
     margin: auto;
     font-weight: 400;

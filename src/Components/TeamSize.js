@@ -14,13 +14,13 @@ const TeamSize = () => {
 members for free on salon!</p>
                    <div className='teamMember'>
          
-           <input className='mt-5 mx-4' type="radio" name="me" id="" value="" />
+           <input className='mt-5 mx-4' type="radio" name="" id="" value="" />
             <label htmlFor="team1">It’s just me</label> 
             <br />
-            <input className=' mt-5 mx-4' type="radio" name="me" id="" value="" /><label htmlFor="">2-5 people</label>
+            <input className=' mt-5 mx-4' type="radio" name="" id="" value="" /><label htmlFor="">2-5 people</label>
             <br />
-            <input className='mt-5 mx-4' type="radio" name="me" id="" value="" /><label htmlFor="">6-10 people </label><br />
-            <input className=' mt-5  mx-4' type="radio" name="me" id="" value="" /><label htmlFor="">11+ people</label>
+            <input className='mt-5 mx-4' type="radio" name="" id="" value="" /><label htmlFor="">6-10 people </label><br />
+            <input className=' mt-5  mx-4' type="radio" name="" id="" value="" /><label htmlFor="">11+ people</label>
 
             <div style={{margin:'22px', padding:'10px', backgroundColor:'#DAE9F7', borderRadius:'10px'}}className='d-flex justify-content-center'>
                 <div className='me-2'><img src={idea} alt="" /></div>
