@@ -1,21 +1,12 @@
 import React from 'react';
 import './CSS/Style.css'
 import idea from '../images/team/Idea.jpg';
+import Upperbutton from './Upperbutton';
 
 const TeamSize = () => {
     return (
         <section>
-            <div className='detailUpper px-5 d-flex justify-content-between align-items-center'>
-                  <div>
-                    <button type='button' class="btn btn-link linkButton">X</button>
-                    <button type="button" class="btn btn-link linkButton">Previous</button></div>
-                  <div><button type="button" class="btn btn-secondary nextButton">Next Step</button></div>
-            </div>
-            <hr
-        style={{
-          background: 'gray',height: '3px',
-        }}
-      />
+           <Upperbutton></Upperbutton>
             <div >
                 <p >Business setup</p>
                 <h3 className='text-center'>What’s your team size?</h3>
@@ -31,9 +22,9 @@ members for free on salon!</p>
             <input className='mt-5 mx-4' type="radio" name="me" id="" value="" /><label htmlFor="">6-10 people </label><br />
             <input className=' mt-5  mx-4' type="radio" name="me" id="" value="" /><label htmlFor="">11+ people</label>
 
-            <div style={{margin:'22px', backgroundColor:'#DAE9F7', borderRadius:'6px'}}className='d-flex justify-content-center'>
+            <div style={{margin:'22px', padding:'10px', backgroundColor:'#DAE9F7', borderRadius:'10px'}}className='d-flex justify-content-center'>
                 <div className='me-2'><img src={idea} alt="" /></div>
-               <div> <p>We’ll add  ‘Wendy’ as an example employee so you can see how the <br />
+               <div> <p >We’ll add  ‘Wendy’ as an example employee so you can see how the <br />
  system works. You can manage employees later once you’re in!</p></div>
             </div>
                    </div>
