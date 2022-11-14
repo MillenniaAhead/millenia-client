@@ -1,10 +1,21 @@
 import React from 'react';
-import Upperbutton from './Upperbutton';
+import { GrClose} from 'react-icons/gr';
+
 
 const Software = () => {
     return (
         <section>
-                <Upperbutton></Upperbutton>
+               <div className='detailUpper px-5 d-flex justify-content-between align-items-center'>
+                  <div>
+                    <button type='button' class="btn btn-link linkButton"><GrClose/></button>
+                    <button type="button" class="btn btn-link linkButton">Previous</button></div>
+                  <div><button type="button" class="btn btn-secondary nextButton">Next Step</button></div>
+            </div>
+            <hr
+        style={{
+          background: 'gray',height: '3px',
+        }}
+      />
         <div >
                 <p >Business setup</p>
                 <h3 className='text-center'>Which software are you currently using ?</h3>

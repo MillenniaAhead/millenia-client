@@ -3,12 +3,21 @@ import './CSS/Style.css'
 import Accordion from 'react-bootstrap/Accordion';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Form from 'react-bootstrap/Form';
-import { GrLocation } from 'react-icons/gr';
-import Upperbutton from './Upperbutton';
+import { GrLocation, GrClose } from 'react-icons/gr';
 const BusinessSetup = () => {
     return (
         <section>
-            <Upperbutton></Upperbutton>
+           <div className='detailUpper px-5 d-flex justify-content-between align-items-center'>
+                  <div>
+                    <button type='button' class="btn btn-link linkButton"><GrClose/></button>
+                    <button type="button" class="btn btn-link linkButton">Previous</button></div>
+                  <div><button type="button" class="btn btn-secondary nextButton">Next Step</button></div>
+            </div>
+            <hr
+        style={{
+          background: 'gray',height: '3px',
+        }}
+      />
             <div >
                 <p >Business setup</p>
                 <h3 className='text-center'>Set your location</h3>
