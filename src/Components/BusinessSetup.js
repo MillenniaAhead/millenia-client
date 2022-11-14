@@ -4,14 +4,21 @@ import Accordion from 'react-bootstrap/Accordion';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Form from 'react-bootstrap/Form';
 import { GrLocation, GrClose } from 'react-icons/gr';
+import { useNavigate } from 'react-router-dom';
 const BusinessSetup = () => {
+  const navigate = useNavigate()
+
+  const handleNext=()=>{
+    navigate('/software')
+  }
+  
     return (
         <section>
            <div className='detailUpper px-5 d-flex justify-content-between align-items-center'>
                   <div>
                     <button type='button' class="btn btn-link linkButton"><GrClose/></button>
                     <button type="button" class="btn btn-link linkButton">Previous</button></div>
-                  <div><button type="button" class="btn btn-secondary nextButton">Next Step</button></div>
+                  <div><button onClick={handleNext} type="button" class="btn btn-secondary nextButton">Next Step</button></div>
             </div>
             <hr
         style={{
