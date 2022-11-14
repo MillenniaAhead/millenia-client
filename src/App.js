@@ -5,6 +5,8 @@ import HearAbout from './Components/HearAbout';
 import Software from './Components/Software';
 import TeamSize from './Components/TeamSize';
 import SetUpDone from './Components/SetUpDone'
+import OutletControlService from './Components/ANU/OutletControlService';
+
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path='/software' element={<Software></Software>}></Route>
         <Route path='/hear' element={<HearAbout></HearAbout>}></Route>
         <Route path='/setupDone' element={<SetUpDone></SetUpDone>}></Route>
+        <Route path='/ser' element={<OutletControlService/>}></Route>
+        
       </Routes>
     </div>
   );
