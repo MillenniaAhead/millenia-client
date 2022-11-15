@@ -1,6 +1,7 @@
 import React from 'react';
 import Dropdown from 'react-bootstrap/Dropdown';
 import {IoReorderThreeOutline } from 'react-icons/io5';
+import '../CSS/ANUService.css'
 
 const Servicemenu = () => {
     return (
@@ -42,26 +43,34 @@ const Servicemenu = () => {
           <div className='d-flex flex-row m-3 ms-3'> <span className='fs-4'><IoReorderThreeOutline/></span><h2>Hair</h2></div>
         </div>
         <div className=''>
-        <div className='p-4 d-flex justify-content-between border border-muted border-start-0'>
+        <div className='p-4 d-flex justify-content-between borderService'>
            <div> <h4>< IoReorderThreeOutline/>Haircut</h4></div>
             <div><h4 className='text-muted'>45min</h4></div>
             <div><h4 className='text-dark'>₹40</h4></div>
         </div>
-        <div className='p-4 d-flex justify-content-between border border-muted border-start-0'>
-           <div> <h4>< IoReorderThreeOutline/>Haircut</h4></div>
-            <div><h4 className='text-muted'>45min</h4></div>
-            <div><h4 className='text-dark'>₹40</h4></div>
+        <div className='p-4 d-flex justify-content-between bordermidle'>
+           <div> <h4>< IoReorderThreeOutline/>Hair Color</h4></div>
+            <div><h4 className='text-muted'>1h 15min</h4></div>
+            <div><h4 className='text-dark'>₹57</h4></div>
         </div>
-        <div className='p-4 d-flex justify-content-between border border-muted border-start-0'>
-           <div> <h4>< IoReorderThreeOutline/>Haircut</h4></div>
+        <div className='p-4 d-flex justify-content-between bordermidle'>
+           <div> <h4>< IoReorderThreeOutline/>Blow Dry</h4></div>
             <div><h4 className='text-muted'>45min</h4></div>
-            <div><h4 className='text-dark'>₹40</h4></div>
+            <div><h4 className='text-dark'>₹35</h4></div>
         </div>
-        <div className='p-4 d-flex justify-content-between border border-muted border-start-0'>
-           <div> <h4>< IoReorderThreeOutline/>Haircut</h4></div>
-            <div><h4 className='text-muted'>45min</h4></div>
-            <div><h4 className='text-dark'>₹40</h4></div>
+        <div className='p-4 d-flex justify-content-between bordermidle'>
+           <div> <h4>< IoReorderThreeOutline/>Balayage</h4></div>
+            <div><h4 className='text-muted'>2h 30min</h4></div>
+            <div><h4 className='text-dark'>₹150</h4></div>
         </div>
+        </div>
+        <div>
+          <div className='d-flex flex-row m-3 ms-3'> <span className='fs-4'><IoReorderThreeOutline/></span><h2>Face</h2></div>
+        </div>
+        <div  className='p-4 d-flex justify-content-between borderService'>
+           <div> <h4>< IoReorderThreeOutline/>Facial</h4></div>
+            <div><h4 className='text-muted'>1h</h4></div>
+            <div><h4 className='text-dark'>₹115</h4></div>
         </div>
        </div>
     );

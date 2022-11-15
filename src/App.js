@@ -6,6 +6,7 @@ import Software from './Components/Software';
 import TeamSize from './Components/TeamSize';
 import SetUpDone from './Components/SetUpDone'
 import OutletControlService from './Components/ANU/OutletControlService';
+import Servicetype from './Components/ANU/Servicetype';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path='/hear' element={<HearAbout></HearAbout>}></Route>
         <Route path='/setupDone' element={<SetUpDone></SetUpDone>}></Route>
         <Route path='/ser' element={<OutletControlService/>}></Route>
+        <Route path='/servicetype' element={<Servicetype/>}></Route>
         
       </Routes>
     </div>
