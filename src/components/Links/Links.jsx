@@ -1,12 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
-import logo from "../assets/log.png";
+import logo from "../../assets/log.png";
 import { BiMap } from "react-icons/bi";
 // import Icon from "./Icon";
 import { SiGoogle } from "react-icons/si";
 import { BsFacebook } from "react-icons/bs";
 import { BsApple } from "react-icons/bs";
-import "./Links.css";
+import "./Links.styles.css";
 // import GoogleLogin from "react-google-login";
 const Links = () => {
   document.title = "Palash";
