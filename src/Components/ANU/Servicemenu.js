@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Dropdown from 'react-bootstrap/Dropdown';
 import {IoReorderThreeOutline } from 'react-icons/io5';
+import {BsMenuButtonWide, BsMenuButtonWideFill } from 'react-icons/bs';
 import '../CSS/ANUService.css'
 
 const Servicemenu = () => {
+  const [toggle, setToggle]= useState(true)
     return (
        <div style={{margin:"10px 200px"}}>
-         <div className='d-flex justify-content-between'>
+         <div className='d-flex justify-content-between '>
             <div>
                 <p style={{fontSize:'22px'}}>Settings .  <span style={{fontWeight:'semibold'}}>Services menu</span></p><br />
                 <h4 style={{fontSize:' 38px', fontWeight:''}}>Services menu</h4>
@@ -37,7 +39,11 @@ const Servicemenu = () => {
             </div>
         </div>
         <div style={{height:"88px", backgroundColor:'#E5E5E5', marginBottom:'30px'}}>
-         <button className='m-4'>Toggle</button>
+         <div style={{width:'100px'}} onClick={()=>{
+          setToggle(!toggle)
+         }}>
+          {toggle ? <BsMenuButtonWide/>: <div style={{ paddingLeft:'85px', backgroundColor:'green'}}><BsMenuButtonWideFill/></div> }
+         </div>
         </div>
         <div>
           <div className='d-flex flex-row m-3 ms-3'> <span className='fs-4'><IoReorderThreeOutline/></span><h2>Hair</h2></div>

@@ -9,15 +9,15 @@ import {TfiBell } from 'react-icons/tfi';
 
 const Header = () => {
     return (
-        <div className='mx-2' style={{height:"88px", display:'flex', justifyContent:'space-between', alignItems:'center'}}>
-            
+        <div className='header'  >
+        
                 <div className='d-flex'>
-                    <img style={{height:'67px'}} src={logo} alt="" />
-                    <img style={{height:'67px'}} src={name} alt="" />
+                    <img className='logoImg' src={logo} alt="" />
+                    <img className='logoImg' src={name} alt="" />
                 </div>
-            <div className='d-flex align-items-center'>
-                <div style={{fontSize:'36px',marginRight:'25px', marginBottom:'20px'}}><GoSearch/> <AiOutlineRocket/> <TfiBell/></div>
-                <div > <img style={{height:"56px"}} src={kLogo} alt="" /></div>
+            <div className='d-flex align-items-center '>
+                <div className='headericon' ><GoSearch/> <AiOutlineRocket/> <TfiBell/></div>
+                <div > <img  className='logoimg' src={kLogo} alt="" /></div>
             </div>
         </div>
     );
