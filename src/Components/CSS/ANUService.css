@@ -46,6 +46,36 @@
 }
 .headericon{font-size:36px;
     margin-right:25px; margin-bottom:20px}
+.toggle{
+  width: 130px;
+  height: 48px;
+  background-color: white;
+  border:.5px solid gray;
+  border-radius: 25px;
+  
+}
+.togglebtnwt{
+    font-size: 34px;
+    color: white;
+    width: 60px;
+    height: 48px;
+    background-color: #1BB70B;
+    border-radius: 50px;
+    
+    text-align: center;
+   
+}
+.togglebtngr{
+    font-size: 34px;
+    color: #1BB70B;
+    width: 60px;
+    height: 48px;
+    
+    border-radius: 50px;
+    padding-left: 84px;
+    text-align: center;
+   
+}
 
 @media only screen and (max-width: 576px) {
     body {
@@ -72,3 +102,4 @@
         height: 30px;
     }
   }
+  

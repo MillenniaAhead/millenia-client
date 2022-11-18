@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Dropdown from 'react-bootstrap/Dropdown';
 import {IoReorderThreeOutline } from 'react-icons/io5';
-import {BsMenuButtonWide, BsMenuButtonWideFill } from 'react-icons/bs';
+import {BsMenuButtonWide } from 'react-icons/bs';
 import '../CSS/ANUService.css'
 
 const Servicemenu = () => {
@@ -38,11 +38,11 @@ const Servicemenu = () => {
            
             </div>
         </div>
-        <div style={{height:"88px", backgroundColor:'#E5E5E5', marginBottom:'30px'}}>
-         <div style={{width:'100px'}} onClick={()=>{
+        <div className='d-flex align-items-center' style={{height:"88px", backgroundColor:'#E5E5E5', marginBottom:'30px'}}>
+         <div className=' toggle' onClick={()=>{
           setToggle(!toggle)
          }}>
-          {toggle ? <BsMenuButtonWide/>: <div style={{ paddingLeft:'85px', backgroundColor:'green'}}><BsMenuButtonWideFill/></div> }
+          {toggle ? <h4 className='togglebtnwt'><BsMenuButtonWide/></h4> : <h4 className='togglebtngr'><BsMenuButtonWide/></h4> }
          </div>
         </div>
         <div>
