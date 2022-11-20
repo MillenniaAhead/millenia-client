@@ -8,6 +8,7 @@ import SetUpDone from './Components/SetUpDone'
 import OutletControlService from './Components/ANU/OutletControlService';
 import Servicetype from './Components/ANU/Servicetype';
 import Singleservice from './Components/ANU/Singleservice';
+import SANService from './Components/SAN Service/SANService';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path='/ser' element={<OutletControlService/>}></Route>
         <Route path='/servicetype' element={<Servicetype/>}></Route>
         <Route path='/singleser' element={<Singleservice></Singleservice>}></Route>
+        <Route path='/sansr' element={<SANService></SANService>}></Route>
         
       </Routes>
     </div>

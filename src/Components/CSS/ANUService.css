@@ -52,6 +52,7 @@
   background-color: white;
   border:.5px solid gray;
   border-radius: 25px;
+  margin-left: 20px;
   
 }
 .togglebtnwt{
@@ -97,6 +98,12 @@
     .headericon{
         font-size: 10px;
         margin: 0;
+    }
+    .borderService{
+        border: 0;
+    }
+    .bordermidle{
+        border: 0;
     }
     .header img{
         height: 30px;
